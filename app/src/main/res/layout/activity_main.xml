@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:background="#78B679"
+        android:id="@+id/image1"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:id="@+id/but"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        android:text="meowmeowmeow 🐱"
+        app:layout_constraintTop_toBottomOf="@+id/image1"
+        android:backgroundTint="#0F6D1A"
+        android:textColor="#8BC34A"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:id="@+id/but2"
+        android:layout_marginHorizontal="20dp"
+        android:text="thank you, next 💅"
+        app:layout_constraintTop_toBottomOf="@+id/but"
+        android:backgroundTint="#061154"
+        android:textColor="#2196F3"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
